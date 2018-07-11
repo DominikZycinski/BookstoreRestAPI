@@ -19,9 +19,9 @@ import org.springframework.stereotype.Service;
 @Service
 public class BookService {
 	 private static List<Book> books  = new ArrayList<>(Arrays.asList( 
-				new Book("spring BookStore with swagger","Spring Boot ","Spring Framework Description"),
-				new Book("java","Core Java", "Core Java Description"),
-				new Book("javascript", "JavaScript", "JavaScript Description"))
+				new Book("Pan Tadeusz","Adam Mickiewicz","Epopeja Narodowa z elementami gawędy szlacheckiej "),
+				new Book("Juliusz Słowacki","Kordian", "Dramat Kordian jest polemiką niezdolności do romantycznego czynu spiskowca, obezwładnionego moralną rozterką legalizmu i krytyką postawy Konrada z Dziadów."),
+				new Book("Henryk Sienkiewicz", "Ogniem i mieczem", "Pierwsza z trzech powieści historycznych będących częścią Trylogii, pisanej dla pokrzepienia serc"))
 				);
 				
 		public List <Book> getAllBooks(){

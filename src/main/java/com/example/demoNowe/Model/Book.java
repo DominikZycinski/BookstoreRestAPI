@@ -26,11 +26,11 @@ public class Book {
 	public Book() {
 	};
 	
-	public Book(  String title, String name, String description) {
+	public Book(  String title, String author, String description) {
 		super();
 	
 		this.title = title;
-		this.author = name;
+		this.author = author;
 		this.description = description;
 	}
 	
@@ -48,10 +48,10 @@ public class Book {
 	public void setTitle(String title) {
 		this.title = title;
 	}
-	public String getName() {
+	public String getAuthor() {
 		return author;
 	}
-	public void setName(String name) {
+	public void setAuthor(String name) {
 		this.author = name;
 	}
 	public String getDescription() {
